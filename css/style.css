@@ -9,9 +9,16 @@ div {
 .top-navigation {
 	background-color: #fff;
 	margin-left:15px;
+	box-sizing: border-box;
 }
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
 }
+.top-navigation > .links{
+	float: right;
+	display: inline-block;
+}
+
