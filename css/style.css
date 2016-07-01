@@ -1,5 +1,7 @@
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
 }
 
 div {
@@ -23,14 +25,13 @@ html {
 }
 
 .top-navigation .content {
-	padding: 0px 2em;
+	padding: 0px 20px;
 	min-width: 37.5rem;
 	height: 70px
 	margin: 0 auto;
 }
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 1.7rem;
@@ -60,7 +61,7 @@ html {
 /********* Background Image Section ********/
 
 .introduction {
-	background-image: url(http://res.cloudinary.com/aovermyer/image/upload/v1467332758/first-background_hqe06a.jpg);
+	background-image: url('../images/first-background.jpg');
 	background-position:center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -72,6 +73,7 @@ html {
 	padding: 0 0.938rem;
 	margin: 0 auto;
 	min-width: 37.5rem;
+
 }
 
 .introduction h1 {
@@ -90,7 +92,7 @@ html {
 	font-size: 1.563rem;
 }
 
-.introduction .buttons {
+.introduction .button {
 	color: white;
 	text-align: center;
 	margin-top: 1.563rem;
@@ -106,4 +108,10 @@ button {
 	padding: 1rem 1.5rem;
 	color: white;
 	font-size: 1.125rem;
+}
+
+button:hover{
+	cursor: pointer;
+    background-color: #d9400e;
+    border-color: #cf3d0e;
 }
