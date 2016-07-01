@@ -16,6 +16,12 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+content{
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+	text-align: center;
+}
 
 /******** Navigation Section *******/
 .top-navigation{
@@ -27,10 +33,8 @@ html {
 }
 
 .top-navigation .content {
-	padding: 0px 20px;
-	min-width: 37.5rem;
 	height: 70px
-	margin: 0 auto;
+	
 }
 .top-navigation .links {
     float: right;
@@ -71,12 +75,7 @@ html {
 	overflow: auto;
 }
 
-.introduction .content {
-	padding: 0 0.938rem;
-	margin: 0 auto;
-	min-width: 37.5rem;
 
-}
 
 .introduction h1 {
 	margin-top: 17.5rem;
@@ -141,5 +140,48 @@ button:hover{
 	height: 10em;
 }
 
+/******** End of Three Icon Section *********/
 
+/******** Footer ***********/
 
+.social .content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+	text-align: center;
+}
+
+.social hr {
+	border: 0
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+
+.social .icons > li{
+	border-radius: 1.25em;
+	width: 40px;
+	height:40px;
+	display: inline-block;
+	margin: 20px 5px;
+	border: 1px solid #eaebec;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.social .twitter {
+	color: #55acee;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .instagram {
+	color: #3f729b;
+}
+
+.social .copy {
+font-size: .9rem;
+font-weight: 300;
+color: #838994;
+}
