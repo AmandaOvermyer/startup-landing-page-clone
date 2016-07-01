@@ -3,7 +3,7 @@ body {
 }
 
 div {
-	border: 1px solid Chocolate;
+	display: box;
 }
 
 html {
@@ -15,46 +15,43 @@ html {
 }
 
 /******** Navigation Section *******/
-.top-navigation {
+.top-navigation{
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
 	border-bottom: 1px solid #DDD;
-	
 }
-.top-navigation > .content {
-	width: 970px;
-	height: 70px;
+
+.top-navigation .content {
+	padding: 0px 2em;
+	min-width: 37.5rem;
+	height: 70px
 	margin: 0 auto;
-	padding: 0 15px;
 }
-.top-navigation > .links{
-	float: right;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #838994;
-	letter-spacing: 0.03em;
-	margin-top: 25px;
-	-webkit-font-smoothing: antialiased;
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 1.7rem;
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
 }
-
 .top-navigation .links li {
-	display: inline-block;
-	margin-left: 1.563rem;
-} 
-.top-navigation .links > .active{
-	color: #4c5058;
-	font-weight: 500;
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
 
-.top-navigation .links li:hover {
-	cursor: pointer;
-	color: #333333;
-}
-.top-navigation > .logo {
+.top-navigation .logo {
 	height: 4.375rem;
-	font-size: 100%;
-	vertical-align: baseline;
-	box-sizing: border-box;
+	margin-left: 50px;
 }
 
